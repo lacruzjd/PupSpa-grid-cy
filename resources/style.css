@@ -76,17 +76,25 @@ header {
     grid-area: 4 / 5/ 5 / 7;
 }
 
-.one {
+.testimonial {
+    display: grid;
+    padding: 10px;
     background-color: #f0f0f0;
     color: #db6363;
-    margin: auto;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 3.7px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+
+.one {
     grid-area: 5 / 1 / 6 / 4;;
 }
 
 .two {
-    background-color: #f0f0f0;
-    color: #db6363;
-    margin: auto;
     grid-area: 5 / 4 / 6 / 7;
 }
 
