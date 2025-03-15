@@ -61,7 +61,7 @@ header {
     justify-content: center;
     align-items: center;
     justify-items: center;
-    
+
 }
 
 .address {
@@ -88,10 +88,11 @@ header {
     justify-content: center;
     align-items: center;
     justify-items: center;
-  }
+}
 
 .one {
-    grid-area: 5 / 1 / 6 / 4;;
+    grid-area: 5 / 1 / 6 / 4;
+    ;
 }
 
 .two {
@@ -100,6 +101,6 @@ header {
 
 footer {
     background-color: #db6363;
-    color: #db6363;
+    color: white;
     grid-area: 6 / 1 / 7 / 7;
 }
